@@ -8,6 +8,7 @@
   "keywords": [
     "pi",
     "pi-agent",
+    "pi-package",
     "stepfun",
     "step-ai",
     "阶跃星辰",
@@ -17,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/pi-stepfun.git"
+    "url": "https://github.com/V-dev-388/pi-stepfun.git"
   },
   "engines": {
     "node": ">=18.0.0"
@@ -26,6 +27,13 @@
     "@earendil-works/pi-coding-agent": ">=0.82.1"
   },
   "files": [
-    "src/index.ts"
-  ]
+    "src/index.ts",
+    "README.md",
+    "README_EN.md"
+  ],
+  "pi": {
+    "extensions": [
+      "src/index.ts"
+    ]
+  }
 }
