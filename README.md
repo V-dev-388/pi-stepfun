@@ -111,9 +111,10 @@ pi update --models
 ```
 pi-stepfun/
 ├── src/
-│   └── index.ts          # 扩展入口，拉取并注册模型
-├── package.json          # 包元数据
-└── README.md             # 说明文档
+│   └── index.ts              # Extension entry point
+├── package.json              # Package metadata
+├── README.md                 # Chinese documentation
+└── README_EN.md              # English documentation
 ```
 
 ## License
