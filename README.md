@@ -42,6 +42,12 @@ ln -s ~/project/pi-stepfun ~/.pi/agent/extensions/stepfun
 pi install git:github.com/V-dev-388/pi-stepfun
 ```
 
+### 方式四：通过 npm 安装
+
+```bash
+pi install npm:@V-dev-388/pi-stepfun
+```
+
 ## 配置 API Key
 
 编辑 `src/index.ts`，把 `YOUR_STEPFUN_API_KEY` 替换为你的 StepFun API Key：

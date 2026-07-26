@@ -5,6 +5,8 @@
   "type": "module",
   "main": "src/index.ts",
   "license": "MIT",
+  "author": "V-dev-388",
+  "homepage": "https://github.com/V-dev-388/pi-stepfun",
   "keywords": [
     "pi",
     "pi-agent",

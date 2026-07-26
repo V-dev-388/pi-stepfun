@@ -42,6 +42,12 @@ ln -s ~/project/pi-stepfun ~/.pi/agent/extensions/stepfun
 pi install git:github.com/V-dev-388/pi-stepfun
 ```
 
+### Method 4: Install via npm
+
+```bash
+pi install npm:@V-dev-388/pi-stepfun
+```
+
 ## Configure API Key
 
 Edit `src/index.ts` and replace `YOUR_STEPFUN_API_KEY` with your StepFun API Key:
