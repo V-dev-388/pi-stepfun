@@ -1,5 +1,7 @@
 # pi-stepfun
 
+[简体中文](./README.md) | [English](./README_EN.md)
+
 [Pi Agent](https://pi.dev) 扩展，自动从 [StepFun 阶跃星辰](https://platform.stepfun.com) API 拉取所有可用模型并注册到 Pi。
 
 ## 支持的模型
@@ -23,7 +25,7 @@
 ### 方式一：直接复制
 
 ```bash
-git clone https://github.com/yourusername/pi-stepfun.git ~/.pi/agent/extensions/stepfun
+git clone https://github.com/V-dev-388/pi-stepfun.git ~/.pi/agent/extensions/stepfun
 cd ~/.pi/agent/extensions/stepfun
 ```
 

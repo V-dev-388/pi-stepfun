@@ -1,5 +1,7 @@
 # pi-stepfun
 
+[简体中文](./README.md) | [English](./README_EN.md)
+
 [Pi Agent](https://pi.dev) extension that auto-fetches all available models from [StepFun](https://platform.stepfun.com) API and registers them in Pi.
 
 ## Supported Models
