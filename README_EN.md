@@ -36,6 +36,12 @@ mkdir -p ~/.pi/agent/extensions
 ln -s ~/project/pi-stepfun ~/.pi/agent/extensions/stepfun
 ```
 
+### Method 3: Install as a Pi Package
+
+```bash
+pi install git:github.com/V-dev-388/pi-stepfun
+```
+
 ## Configure API Key
 
 Edit `src/index.ts` and replace `YOUR_STEPFUN_API_KEY` with your StepFun API Key:

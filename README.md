@@ -22,7 +22,7 @@
 
 ## 安装
 
-### 方式一：直接复制
+### 方式一：直接克隆
 
 ```bash
 git clone https://github.com/V-dev-388/pi-stepfun.git ~/.pi/agent/extensions/stepfun
@@ -34,6 +34,12 @@ cd ~/.pi/agent/extensions/stepfun
 ```bash
 mkdir -p ~/.pi/agent/extensions
 ln -s ~/project/pi-stepfun ~/.pi/agent/extensions/stepfun
+```
+
+### 方式三：作为 Pi Package 安装
+
+```bash
+pi install git:github.com/V-dev-388/pi-stepfun
 ```
 
 ## 配置 API Key
