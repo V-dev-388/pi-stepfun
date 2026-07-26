@@ -45,7 +45,7 @@ pi install git:github.com/V-dev-388/pi-stepfun
 ### 方式四：通过 npm 安装
 
 ```bash
-pi install npm:@V-dev-388/pi-stepfun
+pi install npm:@v_dev_338/pi-stepfun
 ```
 
 ## 配置 API Key

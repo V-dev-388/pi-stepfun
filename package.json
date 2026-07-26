@@ -1,5 +1,5 @@
 {
-  "name": "@V-dev-388/pi-stepfun",
+  "name": "@v_dev_338/pi-stepfun",
   "version": "1.0.0",
   "description": "Pi agent extension for StepFun (阶跃星辰) reasoning models. Auto-fetches all available models from StepFun API.",
   "type": "module",
