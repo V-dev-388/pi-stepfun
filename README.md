@@ -22,7 +22,7 @@
 
 ## 安装
 
-### 方式一：直接复制
+### 方式一：直接克隆
 
 ```bash
 git clone https://github.com/V-dev-388/pi-stepfun.git ~/.pi/agent/extensions/stepfun
@@ -34,6 +34,18 @@ cd ~/.pi/agent/extensions/stepfun
 ```bash
 mkdir -p ~/.pi/agent/extensions
 ln -s ~/project/pi-stepfun ~/.pi/agent/extensions/stepfun
+```
+
+### 方式三：作为 Pi Package 安装
+
+```bash
+pi install git:github.com/V-dev-388/pi-stepfun
+```
+
+### 方式四：通过 npm 安装
+
+```bash
+pi install npm:@v_dev_338/pi-stepfun
 ```
 
 ## 配置 API Key
@@ -99,9 +111,10 @@ pi update --models
 ```
 pi-stepfun/
 ├── src/
-│   └── index.ts          # 扩展入口，拉取并注册模型
-├── package.json          # 包元数据
-└── README.md             # 说明文档
+│   └── index.ts              # Extension entry point
+├── package.json              # Package metadata
+├── README.md                 # Chinese documentation
+└── README_EN.md              # English documentation
 ```
 
 ## License

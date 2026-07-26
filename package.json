@@ -1,10 +1,12 @@
 {
-  "name": "pi-stepfun",
+  "name": "@v_dev_338/pi-stepfun",
   "version": "1.0.0",
   "description": "Pi agent extension for StepFun (阶跃星辰) reasoning models. Auto-fetches all available models from StepFun API.",
   "type": "module",
   "main": "src/index.ts",
   "license": "MIT",
+  "author": "V-dev-388",
+  "homepage": "https://github.com/V-dev-388/pi-stepfun",
   "keywords": [
     "pi",
     "pi-agent",
@@ -24,12 +26,13 @@
     "node": ">=18.0.0"
   },
   "peerDependencies": {
-    "@earendil-works/pi-coding-agent": ">=0.82.1"
+    "@earendil-works/pi-coding-agent": "*"
   },
   "files": [
     "src/index.ts",
     "README.md",
-    "README_EN.md"
+    "README_EN.md",
+    "RELEASE_NOTES.md"
   ],
   "pi": {
     "extensions": [

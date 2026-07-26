@@ -1,0 +1,16 @@
+# Git and system files
+.git
+.gitignore
+.github
+
+# Dependencies
+node_modules/
+
+# Editor/OS artifacts
+.DS_Store
+*.log
+.idea/
+.vscode/
+
+# This file
+.npmignore
