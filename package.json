@@ -24,7 +24,7 @@
     "node": ">=18.0.0"
   },
   "peerDependencies": {
-    "@earendil-works/pi-coding-agent": ">=0.82.1"
+    "@earendil-works/pi-coding-agent": "*"
   },
   "files": [
     "src/index.ts",
