@@ -107,3 +107,13 @@ pi-stepfun/
 ## License
 
 MIT
+
+## One-click Install on HiSH (HarmonyOS)
+
+Paste the following command in HiSH's shell to install pi coding assistant with StepFun extension:
+
+```sh
+wget -qO- https://raw.githubusercontent.com/V-dev-388/pi-stepfun/main/install.sh | sh
+```
+
+Get your API key at [platform.stepfun.com](https://platform.stepfun.com). After installation, type `pi` and press Enter to start.

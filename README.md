@@ -104,6 +104,16 @@ pi-stepfun/
 └── README.md             # 说明文档
 ```
 
+## 在 HiSH（HarmonyOS）上一键安装
+
+在 HiSH 的 shell 里粘贴以下命令即可装好 pi 编程助手 + StepFun 扩展：
+
+```sh
+wget -qO- https://raw.githubusercontent.com/V-dev-388/pi-stepfun/main/install.sh | sh
+```
+
+API Key 请在 [platform.stepfun.com](https://platform.stepfun.com) 获取。安装完成后输入 `pi` 回车即可开始使用。
+
 ## License
 
 MIT
